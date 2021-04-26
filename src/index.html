@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suffizante</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>
+      We are using Node.js <span id="node-version"></span>,
+      Chromium <span id="chrome-version"></span>,
+      and Electron <span id="electron-version"></span>.
+  </p>
+  <p>
+    DISPLAY : <span id="display"></span>
+  </p>
+  <canvas id="waveform" width="300px" height="100px">
+  </canvas>
+  <div id="testDiv"></div>
+</body>
+<script src="./renderers/Waveform.js"/></script>
+
+<script src="./renderers/audioContext.js"/></script>
+<script src="./renderers/setupRendererEvents.js"/></script>
+
+<script src="./renderers/setupRenderer.js"/></script>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Suffizante",
+  "version": "0.0.0",
+  "description": ".sfz creation utility",
+  "main": "src/index.js",
+  "repository": "https://github.com/gui3/Suffizante",
+  "author": "gui3 <gui.silvent@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "dependencies": {
+    "electron": "^12.0.5"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
