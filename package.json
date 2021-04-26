@@ -1,5 +1,5 @@
 {
-  "name": "Suffizante",
+  "name": "suffizante",
   "version": "0.0.0",
   "description": ".sfz creation utility",
   "main": "src/index.js",
