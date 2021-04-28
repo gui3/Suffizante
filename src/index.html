@@ -5,25 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Suffizante</title>
+  <link rel="stylesheet" href="./global.css">
 </head>
 <body>
-  <h1>Hello World</h1>
-  <p>
-      We are using Node.js <span id="node-version"></span>,
-      Chromium <span id="chrome-version"></span>,
-      and Electron <span id="electron-version"></span>.
-  </p>
-  <p>
-    DISPLAY : <span id="display"></span>
-  </p>
-  <canvas id="waveform" width="300px" height="100px">
-  </canvas>
-  <div id="testDiv"></div>
+  <section id="import">
+    <h2>IMPORT</h2>
+  </section>
+  <section id="process">
+    <h2>PROCESS</h2>
+  </section>
+  <section id="visualize">
+    <h2>VISUALIZE</h2>
+  </section>
+  <section id="tune">
+    <h2>FINE TUNE</h2>
+  </section>
+  <section id="export">
+    <h2>EXPORT</h2>
+  </section>
+  <section id="debug">
+    <h2>DEBUG</h2>
+    <p>
+      DISPLAY : <span id="display"></span>
+    </p>
+    <div id="testDiv"></div>
+  </section>
 </body>
-<script src="./renderers/Waveform.js"/></script>
+<script src="./renderer/RENDERER.js"></script>
+<!--script src="./_draft/Waveform.js"/></script>
 
-<script src="./renderers/audioContext.js"/></script>
-<script src="./renderers/setupRendererEvents.js"/></script>
+<script src="./_draft/audioContext.js"/></script>
+<script src="./_draft/setupRendererEvents.js"/></script>
 
-<script src="./renderers/setupRenderer.js"/></script>
+<script src="./_draft/setupRenderer.js"/></script-->
 </html>
